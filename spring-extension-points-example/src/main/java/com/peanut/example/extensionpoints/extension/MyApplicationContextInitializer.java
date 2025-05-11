@@ -47,6 +47,6 @@ public class MyApplicationContextInitializer implements ApplicationContextInitia
         customProperties.put("custom.property", "custom-value");
 
         environment.getPropertySources().addFirst(new MapPropertySource("customProperties", customProperties));
-        log.info("自定义环境变量已设置");
+        System.out.println("自定义环境变量已设置");
     }
 }

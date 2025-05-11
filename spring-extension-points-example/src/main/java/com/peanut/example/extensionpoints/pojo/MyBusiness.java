@@ -6,14 +6,13 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author peanut
- * @description MyObject
+ * @description MyBusiness
  */
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class MyObject {
+public class MyBusiness {
 
-    private String name;
-
+    private String name = "My Business";
 
 }
